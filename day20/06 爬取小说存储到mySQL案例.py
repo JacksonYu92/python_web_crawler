@@ -59,8 +59,8 @@ class XiaoShuoSpider(object):
     def login(self):
 
         self.session.post("https://passport.17k.com/ck/user/login", data={
-            "loginName": "13426749358",
-            "password": "jackson1992",
+            "loginName": "YOURNAME",
+            "password": "YOURPASSWORD",
         }, headers=self.headers)
 
     def get_shelf_books(self):
